@@ -1,5 +1,5 @@
-NAME = ex00
-SRCS = ClapTrap.cpp main.cpp ScavTrap.cpp FtagTrap.cpp DiamondTrap.cpp
+NAME = ex03
+SRCS = ClapTrap.cpp main.cpp ScavTrap.cpp FragTrap.cpp DiamondTrap.cpp
 OBJS = $(SRCS:%.cpp=%.o)
 CXX = c++
 CXXFLAGS = -Wall -Werror -Wextra -std=c++17
