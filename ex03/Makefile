@@ -20,4 +20,8 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all clean fclean re
+frun: re
+	./$(NAME)
+	$(MAKE) fclean
+
+.PHONY: all clean fclean re frun
